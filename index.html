@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Inter & display família= Inter:wght@400;500;700 & swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="assets/js/script.js" onload=""></script>
+    <title>Decodificador</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./assets/imagens/Vector.png" alt="">
+    </header>
+    <main>
+        <section class="principal">
+            <div id="entrada">
+                <textarea name="entrada" id="entrada-text" cols="10" rows="10" placeholder="Digite seu texto"></textarea>
+
+                <div class="infor">
+                    <img src="./assets/imagens/Vector!.png" alt="">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <button id="cript" onclick="mostraTexto()" >Criptografar</button>
+                    <button id="descrip" onclick="descriptografar()" >Descriptografar</button>
+                </div> 
+            </div>
+            <div id="saida">
+                <div class="aviso">Nenhuma mensagem encontrada</div>
+                <div class="text-aviso">Digite um texto que você deseja criptografar ou descriptografar.</div>
+            </div>
+            <div id="descripTexto">
+                <textarea name="" id="inputSaida" cols="30" rows="10"></textarea>
+                <button id="copy" class="copia" onclick="copia()">Copiar</button> 
+           
+            
+        </section>
+    </main>
+   <footer>
+    <p>Atividade proposta pela Alura - One Oracle</p>
+    <p>Desenvolvido por Cláudia Aguilar</p>
+   </footer>
+    
+</body>
+</html>
