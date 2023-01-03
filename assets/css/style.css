@@ -5,10 +5,7 @@
 
     }
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
  /* header */
 header{
@@ -20,6 +17,10 @@ body{
     background-color: #E5E5E5;
     font-family: 'Inter', sem serifa;
     height: 600px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
    
 }
  .principal{
@@ -47,6 +48,7 @@ body{
     border: 1px solid var(--principal-azul);
     cursor: pointer;
 }
+
 
 .botoes{
     display: flex;
@@ -184,4 +186,5 @@ footer{
     justify-content: center;
     padding-top: 20px;
     margin-top: 20px;
+  
 }
