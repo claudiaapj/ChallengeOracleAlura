@@ -56,7 +56,7 @@ function mostraTexto() {
     
         var saidaTexto = document.querySelector("#inputSaida");
         saidaTexto.innerHTML = descriptografia;
-  
+
     }
 
     }
