@@ -177,7 +177,7 @@ body{
 
 /*rodapé*/
 footer{
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -186,5 +186,19 @@ footer{
     justify-content: center;
     padding-top: 20px;
     margin-top: 20px;
+    padding-bottom: 20px;
   
+}
+
+/*responsividade*/
+
+@media screen and (max-width: 767px) {
+    .principal{
+        width: 343px;
+        height: auto;
+        flex-direction: column;
+    }
+    #entrada{
+        height: 624px;
+    }
 }
