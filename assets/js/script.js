@@ -1,6 +1,8 @@
 var btn = document.querySelector("#cript");
 var saidaTexto = document.getElementById("div#inputSaida");
 
+
+
 function mostraEsconde(){
     var container = document.querySelector('#inputSaida');
     var carga = document.querySelector('#saida');
@@ -62,10 +64,15 @@ function mostraTexto() {
 
     function copia() {
     let textArea = document.getElementById('inputSaida').value;
+    var texto = document.querySelector("#entrada-text");
     
     navigator.clipboard.writeText(textArea);
   
-    alert('Texto copiado para área de transferência! Ctrl+V em algum local para colar');
+    alert('Texto copiado para área de transferência! Utilize Ctrl+V para colar');
+    
+    texto.value = " ";
+    document.getElementById("entrada-text").focus();
+
 }
    
    
