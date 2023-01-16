@@ -17,7 +17,6 @@ function mostraEsconde(){
         copia.style.display = 'block';
       
     }
-
 function mostraTexto() { 
     var texto = document.querySelector("#entrada-text").value;
     var textoConvert = texto.toLowerCase();
