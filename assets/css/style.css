@@ -195,13 +195,40 @@ footer{
 
 /*responsividade*/
 
-@media screen and (max-width: 767px) {
+@media (max-width: 580px) {
+   
     .principal{
-        width: 343px;
+        width: 50%;
         height: auto;
         flex-direction: column;
+        
     }
     #entrada{
+        width: 50%;
         height: 624px;
+
     }
+    #saida{
+        background-image: none;
+        height: 200px;
+        
+    }
+    .text-aviso, .aviso{
+        background-color: var(--fundo-saida);
+        top: 10px;
+
+    }
+    footer{
+        width: 50%;
+        top: 20px;
+        left: 430px;
+    }
+    
+}
+
+.site{
+    font-weight: bold;
+    cursor: pointer;
+    color:#0A3871;
+    text-decoration: none;
 }
