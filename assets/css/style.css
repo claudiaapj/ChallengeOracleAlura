@@ -184,7 +184,7 @@ textarea{
 footer{
     margin: 80px 20px;
     width: 1180px;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
